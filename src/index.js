@@ -103,9 +103,9 @@ class App {
   }
 
   _setMesh() {
-    const imagePath01 = "/img01.jpg";
-    const imagePath02 = "/img02.jpg";
-    const noiseMap = "/noise02.jpg";
+    const imagePath01 = "../public/img01.jpg";
+    const imagePath02 = "../public/img02.jpg";
+    const noiseMap = "../public/noise02.jpg";
     const images = [imagePath01, imagePath02];
     const loader = new THREE.TextureLoader();
     const texture01 = loader.load(images[0]);
